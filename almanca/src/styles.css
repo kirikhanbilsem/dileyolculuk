@@ -161,3 +161,51 @@ input:checked + .kayannokta:after {
 #ekran_oyun {
     display: none;
 }
+
+/* Responsive Tasarım için Medya Sorguları */
+@media (max-width: 768px) {
+    #ekran_baslangic {
+        width: 90%; /* Küçük ekranlar için genişliği %90 yapın */
+        height: 80%; /* Küçük ekranlar için yüksekliği %80 yapın */
+    }
+
+    #ekran_baslangic h1 {
+        font-size: 30px; /* Küçük ekranlar için başlık yazı boyutunu azaltın */
+        width: 90%; /* Başlık genişliğini %90 yapın */
+    }
+
+    #ekran_baslangic button {
+        font-size: 20px; /* Küçük ekranlar için buton yazı boyutunu azaltın */
+        padding: 10px 20px; /* Küçük ekranlar için iç boşluğu azaltın */
+    }
+
+    #ekran_baslangic img {
+        width: 120px; /* Küçük ekranlar için resim genişliğini azaltın */
+        height: 120px; /* Küçük ekranlar için resim yüksekliğini azaltın */
+    }
+
+    #ekran_bekleme {
+        width: 90%; /* Küçük ekranlar için genişliği %90 yapın */
+        height: 80%; /* Küçük ekranlar için yüksekliği %80 yapın */
+    }
+
+    #ekran_bekleme img {
+        width: 200px; /* Küçük ekranlar için resim genişliğini azaltın */
+        height: 200px; /* Küçük ekranlar için resim yüksekliğini azaltın */
+    }
+}
+
+@media (max-width: 480px) {
+    #ekran_baslangic h1 {
+        font-size: 24px; /* Çok küçük ekranlar için başlık yazı boyutunu azaltın */
+    }
+
+    #ekran_baslangic button {
+        font-size: 18px; /* Çok küçük ekranlar için buton yazı boyutunu azaltın */
+    }
+
+    #ekran_baslangic img {
+        width: 100px; /* Çok küçük ekranlar için resim genişliğini azaltın */
+        height: 100px; /* Çok küçük ekranlar için resim yüksekliğini azaltın */
+    }
+}
